@@ -13,6 +13,9 @@ const createTicket = async (req, res) => {
     if(!userCheck.length){
       return res.json("User Doesn't Exist ")
     }
+    if(repetition>5){
+      return res.json("Maximum Ticket Size Is 5")
+    }
     rows = 3;
     columns = 9;
     var numberGroups = [];
