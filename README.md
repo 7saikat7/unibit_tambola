@@ -1,4 +1,9 @@
 # unibit_tambola
+
+##ENV File should consist of 
+PORT=5001
+SECRET_ACCESS_TOKEN=12345
+
 ---------------------------------------------------------------------
 api1[POST]:http://localhost:5001/user/register
 description:"To register with the new user"
